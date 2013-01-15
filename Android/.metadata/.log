@@ -1,0 +1,16 @@
+!SESSION 2013-01-15 14:55:35.710 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2013-01-15 14:57:22.110
+!MESSAGE DDMS files not found: C:\Users\Саша\Desktop\нужное ПО\adt-bundle-windows-x86_64\eclipse\platform-tools\adb.exe C:\Users\Саша\Desktop\нужное ПО\adt-bundle-windows-x86_64\eclipse\tools\hprof-conv.exe C:\Users\Саша\Desktop\нужное ПО\adt-bundle-windows-x86_64\eclipse\tools\traceview.bat 
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2013-01-15 14:57:24.448
+!MESSAGE An Android SDK is already being loaded. Please try again later.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-01-15 14:59:31.984
+!MESSAGE Failed to load properties file for project 'RedmineAndroid'
