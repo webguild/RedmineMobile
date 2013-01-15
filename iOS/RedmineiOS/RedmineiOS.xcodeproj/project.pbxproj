@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E09F007016A57C3700F9C938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09F006F16A57C3700F9C938 /* UIKit.framework */; };
+		E09F007216A57C3700F9C938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09F007116A57C3700F9C938 /* Foundation.framework */; };
+		E09F007416A57C3700F9C938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09F007316A57C3700F9C938 /* CoreGraphics.framework */; };
+		E09F007A16A57C3700F9C938 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E09F007816A57C3700F9C938 /* InfoPlist.strings */; };
+		E09F007C16A57C3700F9C938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E09F007B16A57C3700F9C938 /* main.m */; };
+		E09F008016A57C3700F9C938 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E09F007F16A57C3700F9C938 /* AppDelegate.m */; };
+		E09F008216A57C3700F9C938 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E09F008116A57C3700F9C938 /* Default.png */; };
+		E09F008416A57C3700F9C938 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E09F008316A57C3700F9C938 /* Default@2x.png */; };
+		E09F008616A57C3700F9C938 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E09F008516A57C3700F9C938 /* Default-568h@2x.png */; };
+		E09F008916A57C3700F9C938 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09F008716A57C3700F9C938 /* MainStoryboard.storyboard */; };
+		E09F008C16A57C3700F9C938 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09F008B16A57C3700F9C938 /* FirstViewController.m */; };
+		E09F008E16A57C3700F9C938 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = E09F008D16A57C3700F9C938 /* first.png */; };
+		E09F009016A57C3700F9C938 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E09F008F16A57C3700F9C938 /* first@2x.png */; };
+		E09F009316A57C3700F9C938 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09F009216A57C3700F9C938 /* SecondViewController.m */; };
+		E09F009516A57C3700F9C938 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = E09F009416A57C3700F9C938 /* second.png */; };
+		E09F009716A57C3700F9C938 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E09F009616A57C3700F9C938 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E09F006B16A57C3700F9C938 /* RedmineiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedmineiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09F006F16A57C3700F9C938 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E09F007116A57C3700F9C938 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E09F007316A57C3700F9C938 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E09F007716A57C3700F9C938 /* RedmineiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedmineiOS-Info.plist"; sourceTree = "<group>"; };
+		E09F007916A57C3700F9C938 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E09F007B16A57C3700F9C938 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E09F007D16A57C3700F9C938 /* RedmineiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedmineiOS-Prefix.pch"; sourceTree = "<group>"; };
+		E09F007E16A57C3700F9C938 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E09F007F16A57C3700F9C938 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E09F008116A57C3700F9C938 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E09F008316A57C3700F9C938 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E09F008516A57C3700F9C938 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E09F008816A57C3700F9C938 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E09F008A16A57C3700F9C938 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E09F008B16A57C3700F9C938 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E09F008D16A57C3700F9C938 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		E09F008F16A57C3700F9C938 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		E09F009116A57C3700F9C938 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E09F009216A57C3700F9C938 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E09F009416A57C3700F9C938 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		E09F009616A57C3700F9C938 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E09F006816A57C3700F9C938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09F007016A57C3700F9C938 /* UIKit.framework in Frameworks */,
+				E09F007216A57C3700F9C938 /* Foundation.framework in Frameworks */,
+				E09F007416A57C3700F9C938 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E09F006016A57C3700F9C938 = {
+			isa = PBXGroup;
+			children = (
+				E09F007516A57C3700F9C938 /* RedmineiOS */,
+				E09F006E16A57C3700F9C938 /* Frameworks */,
+				E09F006C16A57C3700F9C938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E09F006C16A57C3700F9C938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E09F006B16A57C3700F9C938 /* RedmineiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E09F006E16A57C3700F9C938 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E09F006F16A57C3700F9C938 /* UIKit.framework */,
+				E09F007116A57C3700F9C938 /* Foundation.framework */,
+				E09F007316A57C3700F9C938 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E09F007516A57C3700F9C938 /* RedmineiOS */ = {
+			isa = PBXGroup;
+			children = (
+				E09F007E16A57C3700F9C938 /* AppDelegate.h */,
+				E09F007F16A57C3700F9C938 /* AppDelegate.m */,
+				E09F008716A57C3700F9C938 /* MainStoryboard.storyboard */,
+				E09F008A16A57C3700F9C938 /* FirstViewController.h */,
+				E09F008B16A57C3700F9C938 /* FirstViewController.m */,
+				E09F008D16A57C3700F9C938 /* first.png */,
+				E09F008F16A57C3700F9C938 /* first@2x.png */,
+				E09F009116A57C3700F9C938 /* SecondViewController.h */,
+				E09F009216A57C3700F9C938 /* SecondViewController.m */,
+				E09F009416A57C3700F9C938 /* second.png */,
+				E09F009616A57C3700F9C938 /* second@2x.png */,
+				E09F007616A57C3700F9C938 /* Supporting Files */,
+			);
+			path = RedmineiOS;
+			sourceTree = "<group>";
+		};
+		E09F007616A57C3700F9C938 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E09F007716A57C3700F9C938 /* RedmineiOS-Info.plist */,
+				E09F007816A57C3700F9C938 /* InfoPlist.strings */,
+				E09F007B16A57C3700F9C938 /* main.m */,
+				E09F007D16A57C3700F9C938 /* RedmineiOS-Prefix.pch */,
+				E09F008116A57C3700F9C938 /* Default.png */,
+				E09F008316A57C3700F9C938 /* Default@2x.png */,
+				E09F008516A57C3700F9C938 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E09F006A16A57C3700F9C938 /* RedmineiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E09F009A16A57C3700F9C938 /* Build configuration list for PBXNativeTarget "RedmineiOS" */;
+			buildPhases = (
+				E09F006716A57C3700F9C938 /* Sources */,
+				E09F006816A57C3700F9C938 /* Frameworks */,
+				E09F006916A57C3700F9C938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedmineiOS;
+			productName = RedmineiOS;
+			productReference = E09F006B16A57C3700F9C938 /* RedmineiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E09F006216A57C3700F9C938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Миша Долт";
+			};
+			buildConfigurationList = E09F006516A57C3700F9C938 /* Build configuration list for PBXProject "RedmineiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E09F006016A57C3700F9C938;
+			productRefGroup = E09F006C16A57C3700F9C938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E09F006A16A57C3700F9C938 /* RedmineiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E09F006916A57C3700F9C938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09F007A16A57C3700F9C938 /* InfoPlist.strings in Resources */,
+				E09F008216A57C3700F9C938 /* Default.png in Resources */,
+				E09F008416A57C3700F9C938 /* Default@2x.png in Resources */,
+				E09F008616A57C3700F9C938 /* Default-568h@2x.png in Resources */,
+				E09F008916A57C3700F9C938 /* MainStoryboard.storyboard in Resources */,
+				E09F008E16A57C3700F9C938 /* first.png in Resources */,
+				E09F009016A57C3700F9C938 /* first@2x.png in Resources */,
+				E09F009516A57C3700F9C938 /* second.png in Resources */,
+				E09F009716A57C3700F9C938 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E09F006716A57C3700F9C938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09F007C16A57C3700F9C938 /* main.m in Sources */,
+				E09F008016A57C3700F9C938 /* AppDelegate.m in Sources */,
+				E09F008C16A57C3700F9C938 /* FirstViewController.m in Sources */,
+				E09F009316A57C3700F9C938 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E09F007816A57C3700F9C938 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E09F007916A57C3700F9C938 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E09F008716A57C3700F9C938 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E09F008816A57C3700F9C938 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E09F009816A57C3700F9C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E09F009916A57C3700F9C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E09F009B16A57C3700F9C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedmineiOS/RedmineiOS-Prefix.pch";
+				INFOPLIST_FILE = "RedmineiOS/RedmineiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E09F009C16A57C3700F9C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedmineiOS/RedmineiOS-Prefix.pch";
+				INFOPLIST_FILE = "RedmineiOS/RedmineiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E09F006516A57C3700F9C938 /* Build configuration list for PBXProject "RedmineiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09F009816A57C3700F9C938 /* Debug */,
+				E09F009916A57C3700F9C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E09F009A16A57C3700F9C938 /* Build configuration list for PBXNativeTarget "RedmineiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09F009B16A57C3700F9C938 /* Debug */,
+				E09F009C16A57C3700F9C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E09F006216A57C3700F9C938 /* Project object */;
+}
