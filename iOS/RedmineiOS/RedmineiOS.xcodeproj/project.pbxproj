@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E03FBB6A16A81AFB00C7DD35 /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = E03FBB6916A81AFB00C7DD35 /* third.png */; };
 		E09F007016A57C3700F9C938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09F006F16A57C3700F9C938 /* UIKit.framework */; };
 		E09F007216A57C3700F9C938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09F007116A57C3700F9C938 /* Foundation.framework */; };
 		E09F007416A57C3700F9C938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09F007316A57C3700F9C938 /* CoreGraphics.framework */; };
@@ -23,9 +24,14 @@
 		E09F009316A57C3700F9C938 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09F009216A57C3700F9C938 /* SecondViewController.m */; };
 		E09F009516A57C3700F9C938 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = E09F009416A57C3700F9C938 /* second.png */; };
 		E09F009716A57C3700F9C938 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E09F009616A57C3700F9C938 /* second@2x.png */; };
+		E0AD995516A8091D00880B60 /* redmine_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0AD995416A8091D00880B60 /* redmine_logo.png */; };
+		E0AD995F16A811A300880B60 /* App Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0AD995E16A811A300880B60 /* App Icon.png */; };
+		E0AD996116A8128700880B60 /* App Icon Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = E0AD996016A8128700880B60 /* App Icon Retina.png */; };
+		E0AD996316A81AAD00880B60 /* third@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0AD996216A81AAD00880B60 /* third@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E03FBB6916A81AFB00C7DD35 /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third.png; sourceTree = "<group>"; };
 		E09F006B16A57C3700F9C938 /* RedmineiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedmineiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09F006F16A57C3700F9C938 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E09F007116A57C3700F9C938 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +54,10 @@
 		E09F009216A57C3700F9C938 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E09F009416A57C3700F9C938 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		E09F009616A57C3700F9C938 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		E0AD995416A8091D00880B60 /* redmine_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redmine_logo.png; sourceTree = "<group>"; };
+		E0AD995E16A811A300880B60 /* App Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon.png"; sourceTree = "<group>"; };
+		E0AD996016A8128700880B60 /* App Icon Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon Retina.png"; sourceTree = "<group>"; };
+		E0AD996216A81AAD00880B60 /* third@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +77,8 @@
 		E09F006016A57C3700F9C938 = {
 			isa = PBXGroup;
 			children = (
+				E0AD996016A8128700880B60 /* App Icon Retina.png */,
+				E0AD995E16A811A300880B60 /* App Icon.png */,
 				E09F007516A57C3700F9C938 /* RedmineiOS */,
 				E09F006E16A57C3700F9C938 /* Frameworks */,
 				E09F006C16A57C3700F9C938 /* Products */,
@@ -99,12 +111,8 @@
 				E09F008716A57C3700F9C938 /* MainStoryboard.storyboard */,
 				E09F008A16A57C3700F9C938 /* FirstViewController.h */,
 				E09F008B16A57C3700F9C938 /* FirstViewController.m */,
-				E09F008D16A57C3700F9C938 /* first.png */,
-				E09F008F16A57C3700F9C938 /* first@2x.png */,
 				E09F009116A57C3700F9C938 /* SecondViewController.h */,
 				E09F009216A57C3700F9C938 /* SecondViewController.m */,
-				E09F009416A57C3700F9C938 /* second.png */,
-				E09F009616A57C3700F9C938 /* second@2x.png */,
 				E09F007616A57C3700F9C938 /* Supporting Files */,
 			);
 			path = RedmineiOS;
@@ -113,6 +121,7 @@
 		E09F007616A57C3700F9C938 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E0AD995216A8090400880B60 /* Resources */,
 				E09F007716A57C3700F9C938 /* RedmineiOS-Info.plist */,
 				E09F007816A57C3700F9C938 /* InfoPlist.strings */,
 				E09F007B16A57C3700F9C938 /* main.m */,
@@ -122,6 +131,20 @@
 				E09F008516A57C3700F9C938 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0AD995216A8090400880B60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD996216A81AAD00880B60 /* third@2x.png */,
+				E03FBB6916A81AFB00C7DD35 /* third.png */,
+				E09F008D16A57C3700F9C938 /* first.png */,
+				E09F008F16A57C3700F9C938 /* first@2x.png */,
+				E09F009416A57C3700F9C938 /* second.png */,
+				E09F009616A57C3700F9C938 /* second@2x.png */,
+				E0AD995416A8091D00880B60 /* redmine_logo.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +207,11 @@
 				E09F009016A57C3700F9C938 /* first@2x.png in Resources */,
 				E09F009516A57C3700F9C938 /* second.png in Resources */,
 				E09F009716A57C3700F9C938 /* second@2x.png in Resources */,
+				E0AD995516A8091D00880B60 /* redmine_logo.png in Resources */,
+				E0AD995F16A811A300880B60 /* App Icon.png in Resources */,
+				E0AD996116A8128700880B60 /* App Icon Retina.png in Resources */,
+				E0AD996316A81AAD00880B60 /* third@2x.png in Resources */,
+				E03FBB6A16A81AFB00C7DD35 /* third.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +342,7 @@
 				E09F009C16A57C3700F9C938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -49,10 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#fff"
-            android:ems="10"
-            android:inputType="text"
-            android:lines="@integer/lines"
-            android:maxLines="@integer/lines2" />
+            android:ems="10" />
 
     </LinearLayout>
 
@@ -77,9 +74,8 @@
             android:layout_height="200dp"
             android:layout_gravity="left"
             android:background="#fff"
-            android:ellipsize="none"
+            android:ellipsize="start"
             android:ems="10"
-            android:gravity="top|left"
             android:inputType="textMultiLine" />
 
     </LinearLayout>
