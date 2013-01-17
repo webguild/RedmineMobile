@@ -3,6 +3,7 @@
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#b7d8f8"
     android:gravity="center"
     android:orientation="horizontal"
     tools:context=".MainActivity" >
@@ -25,15 +26,19 @@
                 android:id="@+id/imageView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_launcher" />
+                android:src="@drawable/redmine_logo"
+                android:layout_marginBottom="20dp" />
 
             <EditText
                 android:id="@+id/editText1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#fff"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="login" >
+                android:gravity="center_vertical|center_horizontal"
+                android:hint="Пользователь"
+                android:inputType="textPersonName" >
 
                 <requestFocus />
             </EditText>
@@ -42,15 +47,20 @@
                 android:id="@+id/editText2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#fff"
                 android:ems="10"
-                android:inputType="textPassword"
-                android:text="pass" />
+                android:gravity="center_vertical|center_horizontal"
+                android:hint="Пароль"
+                android:inputType="textPassword" />
 
             <Button
                 android:id="@+id/button1"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="Enter" />
+                android:background="#C0C0C0"
+                android:text="Войти" />
+
         </LinearLayout>
 
     </LinearLayout>

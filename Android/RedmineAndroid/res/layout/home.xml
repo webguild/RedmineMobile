@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="30sp"
-    android:background="#b7d8f8"
+    android:background="FFF"
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
@@ -13,16 +13,25 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:border="30sp"
-        android:gravity="center|left"
         android:orientation="vertical" >
 
-        <TextView android:id="@+id/TextView1"
+        <TextView
+            android:id="@+id/TextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100sp"
             android:gravity="left"
             android:text="Последние проекты:"
-            android:textSize="30sp" />
+            android:textSize="45sp" />
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp" >
+
+        </ListView>
             
     </LinearLayout>
 
@@ -30,7 +39,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_weight="1"
         android:gravity="bottom"
         android:orientation="horizontal" >
 
