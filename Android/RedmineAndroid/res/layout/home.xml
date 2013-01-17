@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="30sp"
-    android:background="FFF"
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
@@ -47,13 +46,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/s"
             android:text="Home" />
 
         <Button
-            android:id="@+id/My Page"
+            android:id="@+id/my_page"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/s"
             android:text="My Page" />
 
         <Button
@@ -61,6 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/s"
             android:text="Projects" />
 
     </LinearLayout>

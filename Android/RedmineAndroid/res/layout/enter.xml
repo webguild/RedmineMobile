@@ -58,7 +58,7 @@
                 android:id="@+id/button1"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:background="#C0C0C0"
+                android:background="#8080FF"
                 android:text="Войти" />
 
         </LinearLayout>
