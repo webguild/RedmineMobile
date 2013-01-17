@@ -50,9 +50,7 @@
             android:layout_weight="1"
             android:background="#fff"
             android:ems="10"
-            android:inputType="text"
-            android:lines="@integer/lines"
-            android:maxLines="@integer/lines2" />
+            android:lines="@integer/lines" />
 
     </LinearLayout>
 
