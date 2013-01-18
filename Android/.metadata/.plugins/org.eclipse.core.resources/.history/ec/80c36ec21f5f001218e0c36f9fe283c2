@@ -1,8 +1,0 @@
-<TableLayout android:layout_width="wrap_content"
-   android:layout_height="wrap_content"
-   android:stretchColumns="*" android:background="#ff0000">
-    <TableRow android:background="#00ff00" android:layout_margin="2dip">
-        <Button android:id="@+id/button" android:text="+" android:background="#0000ff" android:layout_margin="2dip"/>
-        <TextView android:text="@string/label"  android:background="#0000ff" android:layout_margin="2dip"/>
-        <TextView android:id="@+id/amount"  android:background="#0000ff" android:layout_margin="2dip"/>
-    </TableRow>
