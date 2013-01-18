@@ -29,13 +29,12 @@
             android:layout_weight="1"/>
 
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Название:"
-            android:textSize="45sp" 
-            />
+            android:layout_weight="0.28"
+            android:text="Название"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView
             android:id="@+id/TextView02"
@@ -58,14 +57,11 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/TextView1"
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:text="Действия"
-            android:textSize="35sp" >
-
-        </TextView>
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <ListView
             android:id="@+id/listView1"
@@ -88,7 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/s"
+            android:background="@drawable/b1"
             android:text="Home" />
 
         <Button
@@ -96,7 +92,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/s"
+            android:background="@drawable/b1"
             android:text="My Page" />
 
         <Button
@@ -104,7 +100,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/s"
+            android:background="@drawable/b1"
             android:text="Projects" />
 
     </LinearLayout>
