@@ -12,67 +12,50 @@ public final class R {
     }
     public static final class drawable {
         public static final int back=0x7f020000;
-        public static final int border=0x7f020001;
-        public static final int customborder=0x7f020002;
-        public static final int home=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int mybu=0x7f020005;
-        public static final int mypage=0x7f020006;
-        public static final int plus=0x7f020007;
-        public static final int projects=0x7f020008;
-        public static final int redmine_logo=0x7f020009;
-        public static final int s=0x7f02000a;
+        public static final int backbutton=0x7f020001;
+        public static final int border=0x7f020002;
+        public static final int customborder=0x7f020003;
+        public static final int darkgreybutton=0x7f020004;
+        public static final int home=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int mybu=0x7f020007;
+        public static final int mypage=0x7f020008;
+        public static final int plus=0x7f020009;
+        public static final int projects=0x7f02000a;
+        public static final int redmine_logo=0x7f02000b;
+        public static final int s=0x7f02000c;
     }
     public static final class id {
-<<<<<<< HEAD
+        public static final int Home=0x7f080007;
         public static final int LinearLayout1=0x7f080000;
+        public static final int Projects=0x7f080009;
+        public static final int TextView01=0x7f08000a;
+        public static final int TextView010=0x7f080014;
+        public static final int TextView02=0x7f08000d;
+        public static final int TextView03=0x7f080016;
+        public static final int TextView04=0x7f080015;
+        public static final int TextView05=0x7f080018;
+        public static final int TextView06=0x7f080017;
+        public static final int TextView09=0x7f080013;
+        public static final int TextView1=0x7f080005;
         public static final int button1=0x7f080004;
-        public static final int button2=0x7f080008;
+        public static final int button2=0x7f080011;
         public static final int editText1=0x7f080002;
         public static final int editText2=0x7f080003;
+        public static final int editText3=0x7f080012;
         public static final int imageView1=0x7f080001;
-        public static final int menu_settings=0x7f080009;
-        public static final int textView1=0x7f080005;
-        public static final int textView2=0x7f080006;
-        public static final int textView3=0x7f080007;
+        public static final int listView1=0x7f080006;
+        public static final int listView2=0x7f08000b;
+        public static final int menu_settings=0x7f080019;
+        public static final int my_page=0x7f080008;
+        public static final int textView1=0x7f08000e;
+        public static final int textView2=0x7f08000f;
+        public static final int textView3=0x7f080010;
+        public static final int title=0x7f08000c;
     }
     public static final class integer {
         public static final int lines=0x7f040000;
         public static final int lines2=0x7f040001;
-=======
-        public static final int Home=0x7f070007;
-        public static final int LinearLayout1=0x7f070000;
-        public static final int Projects=0x7f070009;
-        public static final int TextView01=0x7f07000a;
-        public static final int TextView010=0x7f070013;
-        public static final int TextView02=0x7f07000d;
-        public static final int TextView03=0x7f070015;
-        public static final int TextView04=0x7f070014;
-        public static final int TextView05=0x7f070017;
-        public static final int TextView06=0x7f070016;
-        public static final int TextView09=0x7f070012;
-        public static final int TextView1=0x7f070005;
-        public static final int button1=0x7f070004;
-        public static final int button2=0x7f070011;
-        public static final int editText1=0x7f070002;
-        public static final int editText2=0x7f070003;
-        public static final int imageView1=0x7f070001;
-        public static final int listView1=0x7f070006;
-        public static final int listView2=0x7f07000b;
-        public static final int menu_settings=0x7f070018;
-        public static final int my_page=0x7f070008;
-<<<<<<< HEAD
-        public static final int textView1=0x7f07000e;
-        public static final int textView2=0x7f07000f;
-        public static final int textView3=0x7f070010;
-        public static final int title=0x7f07000c;
-=======
-        public static final int textView1=0x7f07000c;
-        public static final int textView2=0x7f07000d;
-        public static final int textView3=0x7f07000e;
-        public static final int title=0x7f070011;
->>>>>>> c06443bd08a7611735b2a14b2a7d18b923147950
->>>>>>> 72a61f0e0ead9aeb566e5b81a7f0bf52c55f329c
     }
     public static final class layout {
         public static final int enter=0x7f030000;
@@ -80,8 +63,9 @@ public final class R {
         public static final int mypage=0x7f030002;
         public static final int project_activity=0x7f030003;
         public static final int project_add_news=0x7f030004;
-        public static final int project_main=0x7f030005;
-        public static final int project_news=0x7f030006;
+        public static final int project_add_task=0x7f030005;
+        public static final int project_main=0x7f030006;
+        public static final int project_news=0x7f030007;
     }
     public static final class menu {
         public static final int activity_main=0x7f070000;
