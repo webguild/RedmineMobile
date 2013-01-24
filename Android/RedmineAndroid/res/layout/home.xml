@@ -10,28 +10,42 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:layout_weight="1"
         android:orientation="vertical" >
 
         <TextView
             android:id="@+id/TextView1"
-            android:layout_width="wrap_content"
+            android:layout_width="281dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
             android:gravity="left"
             android:text="Последние проекты:"
-            android:textSize="45sp" />
+            android:textSize="25sp" />
 
-        <ListView
-            android:id="@+id/listView1"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50sp" >
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal" >
 
-        </ListView>
-            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/ListView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
@@ -46,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/s"
+            android:background="@drawable/border"
             android:text="Home" />
 
         <Button
@@ -54,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/s"
+            android:background="@drawable/border"
             android:text="My Page" />
 
         <Button
@@ -62,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/s"
+            android:background="@drawable/border"
             android:text="Projects" />
 
     </LinearLayout>

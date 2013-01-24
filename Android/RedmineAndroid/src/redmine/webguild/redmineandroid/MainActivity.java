@@ -9,23 +9,13 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    	super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.project_news);
+    	this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+    	setContentView(R.layout.project_main);
 
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-<<<<<<< HEAD
-        setContentView(R.layout.project_news);
 
-=======
-<<<<<<< HEAD
-        setContentView(R.layout.project_add_worker);
-=======
-        setContentView(R.layout.project_add_task);
->>>>>>> 2697285bc059ae31d77b3fd20fd6202707e0d817
->>>>>>> cfc2480f4ac24ce27bbed73c78868fcb87a0eed4
->>>>>>> 7a90165b6d1d6018c86ddabebe9655d41ef1d769
-    }
+    	}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

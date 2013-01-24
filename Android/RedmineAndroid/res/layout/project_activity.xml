@@ -10,32 +10,31 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.02"
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
-            android:layout_weight="0.28"
-            android:background="@drawable/back"
-            android:text="Назад"
-            android:textSize="30sp" />
+            android:id="@+id/Button01"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/backbutton" />
 
         <TextView
             android:id="@+id/TextView01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="45sp"
-            android:layout_weight="1"/>
+            android:layout_weight="0.68"
+            android:textSize="45sp" />
 
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Название:"
-            android:textSize="45sp" 
-            android:layout_weight="1"/>
+            android:layout_weight="0.06"
+            android:text=" Название:"
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/TextView02"
@@ -56,18 +55,37 @@
             android:id="@+id/TextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="100dp"
             android:text="Действия"
-            android:textSize="35sp" >
-
+            android:textSize="25sp" >
         </TextView>
 
-        <ListView
-            android:id="@+id/listView1"
-            android:layout_width="match_parent"
-            android:layout_height="366dp" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
 
-        </ListView>
+            android:background="@drawable/customborder" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ListView
+                    android:id="@+id/ListView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="293dp"
+                    android:layout_weight="1"
+                    android:background="#FFF" >
+                </ListView>
+
+            </LinearLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -83,7 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/s"
+            android:background="@drawable/b1"
             android:text="Home" />
 
         <Button
@@ -91,7 +109,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/s"
+            android:background="@drawable/border"
             android:text="My Page" />
 
         <Button
@@ -99,7 +117,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/s"
+            android:background="@drawable/border"
             android:text="Projects" />
 
     </LinearLayout>
