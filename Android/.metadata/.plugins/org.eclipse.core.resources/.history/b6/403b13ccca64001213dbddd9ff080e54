@@ -1,0 +1,87 @@
+package test.parstest;
+
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.graphics.drawable.Drawable;
+import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+
+
+
+
+public class MainActivity extends Activity {
+
+TextView tvOut;
+private ImageView imOut;	
+Button btn;	
+		
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+	//---------------------------------------------------------------------	
+		
+		
+		
+		String url="http://developer.alexanderklimov.ru/android/images/android_cat.jpg";
+		btn = (Button)  findViewById(R.id.button1);
+		imOut=(ImageView) findViewById(R.id.imageView1);
+		tvOut=(TextView) findViewById(R.id.textView1);
+		
+		
+		try {
+			imOut.setImageDrawable(grabImageFromUrl(url));
+		} catch (Exception e) {
+			tvOut.setText("Ошибка: Exception");
+		}
+	}
+		
+		
+		
+		
+		
+		private Drawable grabImageFromUrl(String url) throws Exception {
+			return Drawable.createFromStream(
+					(InputStream) new URL(url).getContent(), "src");
+		}
+		
+		
+				
+			
+				
+				
+				
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+}

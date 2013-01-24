@@ -1,0 +1,12 @@
+package test.parstest;
+
+public class GetMethodEx {
+
+	
+	
+	
+	public String getInternetData throw Exception 
+	{
+		
+	}
+}
