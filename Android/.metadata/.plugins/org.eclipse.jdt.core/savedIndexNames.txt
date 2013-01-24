@@ -1,6 +1,7 @@
 INDEX VERSION 1.126+C:\Users\Саша\Desktop\Работа\Redmine\RedmineMobile\Android\.metadata\.plugins\org.eclipse.jdt.core
 111619155.index
 2897059084.index
+4066240456.index
 2760851330.index
 2552704920.index
 461938496.index

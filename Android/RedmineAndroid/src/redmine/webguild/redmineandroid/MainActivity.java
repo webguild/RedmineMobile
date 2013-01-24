@@ -9,6 +9,7 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+<<<<<<< HEAD
         super.onCreate(savedInstanceState);
 
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -16,6 +17,15 @@ public class MainActivity extends Activity {
 
         
     }
+=======
+    	super.onCreate(savedInstanceState);
+
+    	this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+    	setContentView(R.layout.project_main);
+
+
+    	}
+>>>>>>> 33de58b5a7044ddb6fa8dddc55c9c1e0377055bd
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

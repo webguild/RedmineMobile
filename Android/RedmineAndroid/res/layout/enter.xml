@@ -55,10 +55,10 @@
                 android:inputType="textPassword" />
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/login"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:background="#8080FF"
+                android:background="@drawable/border"
                 android:text="Войти" />
 
         </LinearLayout>
