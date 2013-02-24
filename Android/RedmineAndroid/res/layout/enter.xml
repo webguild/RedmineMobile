@@ -30,7 +30,7 @@
                 android:layout_marginBottom="20dp" />
 
             <EditText
-                android:id="@+id/editText1"
+                android:id="@+id/login_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
@@ -44,7 +44,7 @@
             </EditText>
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"

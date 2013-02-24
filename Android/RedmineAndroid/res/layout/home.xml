@@ -39,7 +39,7 @@
                 android:orientation="vertical" >
 
                 <ListView
-                    android:id="@+id/ListView01"
+                    android:id="@+id/LV_home"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" >
                 </ListView>

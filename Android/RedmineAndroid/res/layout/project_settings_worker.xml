@@ -4,16 +4,11 @@
     android:layout_height="match_parent"
     android:background="#FFF"
     android:orientation="vertical"
-    android:paddingBottom="5dp"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
-    android:paddingTop="5dp" >
+    android:paddingLeft="10dp" >
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:background="#C0C0C0" >
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
 
         <Button
             android:id="@+id/button1"
@@ -25,8 +20,7 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="30dp"
             android:text="Название"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -34,9 +28,9 @@
             android:id="@+id/button2"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_gravity="right"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="30dp"
             android:background="@drawable/greyplus" />
+
     </LinearLayout>
 
     <TextView
@@ -66,7 +60,7 @@
                 <ListView
                     android:id="@+id/listView1"
                     android:layout_width="290dp"
-                    android:layout_height="350dp"
+                    android:layout_height="500dp"
                     android:background="#fff" >
                 </ListView>
             </FrameLayout>

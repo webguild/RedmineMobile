@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="30sp"
-    android:background="#FFF"
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
@@ -15,11 +14,11 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/Button01"
+            android:id="@+id/Back"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="25dp"
-            android:background="@drawable/backbutton" />
+            android:background="@drawable/border_back" />
 
         <TextView
             android:id="@+id/TextView07"
@@ -60,25 +59,25 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/TextView04"
+                android:id="@+id/actions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:text="EditText" />
+                android:text="Действия" />
 
             <TextView
-                android:id="@+id/TextView03"
+                android:id="@+id/news"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:text="EditText" />
+                android:text="Новости" />
 
             <TextView
-                android:id="@+id/TextView1"
+                android:id="@+id/settings"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:text="EditText" />
+                android:text="Настройки" />
 
         </LinearLayout>
 
@@ -112,18 +111,18 @@
                 android:orientation="vertical" >
 
                 <TextView
-                    android:id="@+id/TextView06"
+                    android:id="@+id/bags"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:text="EditText" />
+                    android:text="Баги" />
 
                 <TextView
-                    android:id="@+id/TextView10"
+                    android:id="@+id/tasks"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:text="EditText" />
+                    android:text="Задачи" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -156,7 +155,7 @@
                 android:layout_height="match_parent" >
 
                 <ListView
-                    android:id="@+id/listView1"
+                    android:id="@+id/comrades"
                     android:layout_width="match_parent"
                     android:layout_height="293dp"
                     android:layout_weight="1"

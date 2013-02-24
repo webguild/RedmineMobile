@@ -39,7 +39,7 @@
                 android:orientation="vertical" >
 
                 <ListView
-                    android:id="@+id/listView1"
+                    android:id="@+id/LV_mypage_mytasks"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" >
                 </ListView>
@@ -81,7 +81,7 @@
                 android:orientation="vertical" >
 
                 <ListView
-                    android:id="@+id/ListView01"
+                    android:id="@+id/LV_mypage_created_tasks"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" >
                 </ListView>
