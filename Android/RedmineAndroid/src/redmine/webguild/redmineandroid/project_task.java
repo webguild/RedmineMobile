@@ -1,5 +1,7 @@
 package redmine.webguild.redmineandroid;
 
+import java.util.ArrayList;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,6 +17,11 @@ import android.widget.AdapterView.OnItemClickListener;
 
 public class project_task extends Activity implements OnClickListener{
 	Button Home,my_page,Projects,Back,Refresh;
+	InternetData g1;
+	ArrayList<String> TaskList=new ArrayList<String>();
+	String login="d.salskiy",
+			pass="salskiy",
+			URL="http://tasks.web-guild.net/projects/redmine/issues.xml";
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +37,29 @@ public class project_task extends Activity implements OnClickListener{
     	Refresh=(Button)findViewById(R.id.Refresh);
     	
         
+    	
+    	
+    	 new Thread(new Runnable() { public void run() 
+    	 {
+    	        g1=new InternetData();
+    	        // массив с данными
+    	        TaskList=g1.getTaskFullInfo(login, pass, URL);
+    	 } 
+    	 }).start();
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
         
         
      

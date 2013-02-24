@@ -33,6 +33,14 @@ public class TasksInfo extends DefaultHandler {
 			Attributes attributes) throws SAXException {
 		// TODO Auto-generated method stub
 		
+		if (localName.equals("id"))
+		{
+		isUserTag = true;
+		tasks.setLength(0);
+		}
+		
+
+		
 		if (localName.equals("subject"))
 		{
 		isUserTag = true;
@@ -48,21 +56,37 @@ public class TasksInfo extends DefaultHandler {
 		if(isUserTag==true)
 		{
 		      tasks.append(new String(ch, start, length));
-		      System.out.println(tasks);
+		      
 		}
 	}
 		  
 	public void endElement(String uri, String localName, String qName) throws SAXException
 	  {
+		
+		if (localName.equals("id"))
+		{
+		tasks1.append(tasks);
+		isUserTag = false;
+		String Stasks=tasks1.toString();
+		info.setProject(Stasks);
+		//System.out.println(Stasks);
+		tasks1.setLength(0);
+		}
+		
+		
+		
 		if (localName.equals("subject"))
 		{
 		tasks1.append(tasks);
 		isUserTag = false;
 		String Stasks=tasks1.toString();
 		info.setProject(Stasks);
-		System.out.println(Stasks);
+		//System.out.println(Stasks);
 		tasks1.setLength(0);
 		}
+		
+		
+		
 	  }
 	
 	

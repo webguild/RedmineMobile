@@ -17,22 +17,35 @@ import android.view.Window;
 
 public class project_tasks_list extends Activity {
 	InternetData g1;
+	ArrayList<String> TaskList=new ArrayList<String>();
+	String login="d.salskiy",
+			pass="salskiy",
+			URL="http://tasks.web-guild.net/projects/redmine/issues.xml";
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
 
     	this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-    	setContentView(R.layout.project_tasks_list);}
+    	setContentView(R.layout.project_tasks_list);
     	
     	
     	
     	
     	
     	
-    	
+    new Thread(new Runnable() {
+        public void run() {
+        
+        	g1=new InternetData();
+        	// массив с данными
+        	TaskList=g1.getTaskInfo(login, pass, URL);
+        	 } 
+    }).start();
+        
     
 
-
+    }
     	
 
     @Override

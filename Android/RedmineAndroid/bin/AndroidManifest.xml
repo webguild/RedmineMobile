@@ -44,5 +44,5 @@
         <activity android:name="projects"></activity>
         <activity android:name="worker_page"></activity>
     </application>
-
+<uses-permission android:name="android.permission.INTERNET" /> 
 </manifest>

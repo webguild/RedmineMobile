@@ -12,9 +12,9 @@ import org.xml.sax.XMLReader;
 
 public class InternetData {
 
+	ArrayList<String> toReturn=new ArrayList<String>();
 	
-	
-	public String getTaskInfo(String login,String pass,String URL)
+	public ArrayList<String> getTaskInfo(String login,String pass,String URL)
 	{
 		RLoginization test=new RLoginization();
 		String returned = null;
@@ -32,15 +32,16 @@ public class InternetData {
 			//парсим
 			xr.parse(new InputSource(xmlStream));
 			
-			//final String information=work.getInformation();
+			
 			ArrayList <String> result = work.getInformation();
-			StringBuffer print =new StringBuffer();
+			toReturn=result;
+			/*StringBuffer print =new StringBuffer();
 			for(String key : result){
 				//System.out.println(key);
 				print.append("\n"+key);
-				}
+				}*/
 			
-			fprint.append(print);
+			
 			
 			
 	}
@@ -48,12 +49,12 @@ public class InternetData {
 		{
 			System.out.println("Error " + e );
 		}
-		return fprint.toString();
+		return toReturn;
 }
 	
 
 
-public String getTaskFullInfo(String login,String pass,String URL)
+public ArrayList<String> getTaskFullInfo(String login,String pass,String URL)
 {
 	RLoginization test=new RLoginization();
 	String returned = null;
@@ -71,15 +72,16 @@ public String getTaskFullInfo(String login,String pass,String URL)
 		//парсим
 		xr.parse(new InputSource(xmlStream));
 		
-		//final String information=work.getInformation();
 		ArrayList <String> result = work.getFullInformation();
-		StringBuffer print =new StringBuffer();
+		/*StringBuffer print =new StringBuffer();
 		for(String key : result){
 			//System.out.println(key);
 			print.append("\n"+key);
 			}
 		
 		fprint.append(print);
+		*/
+		toReturn=result;
 		
 		
 }
@@ -87,7 +89,7 @@ public String getTaskFullInfo(String login,String pass,String URL)
 	{
 		System.out.println("Error " + e );
 	}
-	return fprint.toString();
+	return toReturn;
 }
 
 }
